@@ -123,6 +123,7 @@ in their package.json files to get the latest content so updates would be manual
 reserving major version changes for breaking changes in the exported data model, or anything that would (or may) require
 refactoring how the data is consumed.
 
+- `4.1.0` - Feb 5, 2026 - Uganda regions updated. Thanks [mxmgorin](https://github.com/mxmgorin)!
 - `4.0.0` - Nov 23, 2025 - Thanks [mattrubin](https://github.com/mattrubin)!
 - **Breaking change**: the UMD export format has now been standardized to the same as ESM. This was incorrect in v3.x, so the
   typings for the UMD version were previously incorrect.

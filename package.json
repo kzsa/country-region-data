@@ -1,12 +1,17 @@
 {
   "name": "country-region-data",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "List of countries, regions, and their shortcodes.",
   "author": "Ben Keen",
   "license": "MIT",
   "main": "dist/data-umd.js",
   "module": "dist/data.js",
   "typings": "dist/data.d.ts",
+  "scripts": {
+    "test": "grunt validate",
+    "build": "grunt build",
+    "findIncomplete": "grunt findIncomplete"
+  },
   "exports": {
     "./data.json": "./data.json",
     ".": {
@@ -14,11 +19,6 @@
       "require": "./dist/data-umd.js",
       "import": "./dist/data.js"
     }
-  },
-  "scripts": {
-    "test": "grunt validate",
-    "build": "grunt build",
-    "findIncomplete": "grunt findIncomplete"
   },
   "repository": {
     "type": "git",
